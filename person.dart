@@ -1,16 +1,16 @@
 class Person {
-  String name;
+  required String name;
   String? surname;
-  String cityOfOrigin;
-  int age;
-  int height;
+  required String cityOfOrigin;
+  required int age;
+  required int height;
 
   Person(
-    required this.name,
+    this.name,
     this.surname,
-    required this.cityOfOrigin,
-    required this.age,
-    required this.height,
+    this.cityOfOrigin,
+    this.age,
+    this.height,
   );
 }
 
