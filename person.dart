@@ -7,7 +7,7 @@ class Person {
 
   Person(
     this.name,
-    this.surname,
+    this.surname = "",
     this.cityOfOrigin,
     this.age,
     this.height,
