@@ -1,9 +1,9 @@
 class Person {
-  required String name;
+  String name;
   String? surname;
-  required String cityOfOrigin;
-  required int age;
-  required int height;
+  String cityOfOrigin;
+  int age;
+  int height;
 
   Person(
     this.name,
